@@ -1,0 +1,148 @@
+body {
+    background: linear-gradient(90deg, black 0%, #440E0E 69.5%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack elements */
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+nav {
+    font-size: 24px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px; /* Separate from button */
+}
+
+nav a:link {
+    color: white; 
+    text-decoration: none; 
+}
+
+nav a:visited {
+    color: white; 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: #AA2323; 
+    background-color: white;
+    text-decoration: underline; 
+}
+
+p {
+    font-size: 24px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(90deg, black 0%, #440E0E 69.5%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+.carousel {
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden; /* Hide overflow */
+    margin-bottom: 20px; /* Add margin between carousels */
+}
+
+.carousel p {
+    margin: 90px;
+}
+
+.carousel-images {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center the image container */
+    width: 100%;
+    position: relative; /* Position relative for absolute positioning of buttons */
+}
+
+.carousel-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+button.prev, button.next {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for visibility */
+    color: white; /* White color for the text */
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute; /* Position buttons absolutely */
+    top: 50%; /* Center buttons vertically */
+    transform: translateY(-50%); /* Adjust for exact centering */
+    z-index: 10; /* Ensure buttons are on top */
+    width: 40px; /* Ensure buttons have a visible width */
+    height: 40px; /* Ensure buttons have a visible height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.prev {
+    left: 10px; /* Position the previous button to the left of the image */
+}
+
+button.next {
+    right: 10px; /* Position the next button to the right of the image */
+}
+
+img:hover {
+    transform: scale(1.1);
+    margin-top: 15px;
+}
+
+p:hover {
+    transform: scale(1.1);
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+hr {
+    width: 100%;;
+}
+
+

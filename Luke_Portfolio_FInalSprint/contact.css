@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(90deg, black 0%, #440E0E 69.5%);
+     color: white;
+     display: flex;
+     flex-direction: column; 
+     align-items: center;
+     margin: 0; 
+ }
+ 
+ 
+ header {
+     width: 100%;
+     display: flex;
+     flex-direction: column; 
+     justify-content: center; 
+     align-items: center;    
+     padding: 20px 0; 
+ }
+ 
+ h1 {
+     color: white; 
+     margin-bottom: 20px; 
+     font-family: Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 700;
+ }
+ 
+ h2 {
+     font-size: 30px;
+     text-align: center;
+ }
+ 
+ nav {
+     font-size: 24px;
+     display: flex;
+     gap: 20px;
+ }
+ 
+ nav a:link {
+     color: white; 
+     text-decoration: none; 
+ }
+ 
+ nav a:visited {
+     color: white; 
+     text-decoration: none; 
+ }
+ 
+ nav a:hover {
+     color: #AA2323; 
+     background-color: white;
+     text-decoration: underline; 
+ }
+
+ button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(90deg, black 0%, #440E0E 69.5%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;    
+    padding: 20px 0; 
+    font-size: 24px;
+}
+
+.email-link:link, .email-link:visited {
+    color: white; 
+    text-decoration: none;
+    padding: 10px; 
+}
+
+.email-link:hover {
+    color: white;
+    text-decoration: underline;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.biglogo {
+    font-size: 150px;
+    color: white;
+}
+
+.biglogo:hover {
+    color: white;
+    transform: scale(1.1); 
+}
+
+hr {
+    width: 100%;
+}
+
+p {
+    font-size: 24px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+p:hover {
+    transform: scale(1.1);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
